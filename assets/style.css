@@ -1,0 +1,54 @@
+*{
+    font-family: 'Times New Roman', Times, serif; color: whitesmoke;
+    background-color: black;
+    box-sizing: border-box;
+}
+.header {
+text-align: center;
+border: 1px; color: black;
+font-size: 27px;
+}
+
+
+.flexbox{
+    display: flex;
+    min-height: 100%;
+
+}
+
+.topics{
+    width: 33%;
+    min-height: 50em;
+    margin: 10px;
+    border: 3px solid whitesmoke; 
+    text-align: center;
+   
+    
+}
+
+.work{
+    border: 3px solid whitesmoke;
+    width: 33%;
+    background-color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif; color: black;   
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+}
+
+#aboutme{}
+
+#work{
+   background-image: url(spiral.jpg);
+   flex-flow: nowrap;
+   align-items: center;
+   background-size: 100%;
+   background-repeat: no-repeat;
+}
+
+#contactinfo{}
+
+img{
+}
