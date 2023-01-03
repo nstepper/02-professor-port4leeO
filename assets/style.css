@@ -27,18 +27,17 @@ font-size: 27px;
 }
 
 .work{
-    border: 3px solid whitesmoke;
-    width: 33%;
-    background-color: whitesmoke;
+    border: 3px solid white;
+    background-color: white;
     font-family: 'Times New Roman', Times, serif; color: black;   
     text-align: center;
+    align-items: center;
 }
 
 footer{
     text-align: center;
 }
 
-#aboutme{}
 
 #work{
    background-image: url(spiral.jpg);
@@ -46,9 +45,7 @@ footer{
    align-items: center;
    background-size: 100%;
    background-repeat: no-repeat;
-}
+   cursor:grab;
+  }
 
-#contactinfo{}
-
-img{
-}
+     
