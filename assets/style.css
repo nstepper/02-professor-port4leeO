@@ -48,4 +48,13 @@ footer{
    cursor:grab;
   }
 
+li{
+    list-style: upper-roman ;
+    text-align: left;
+    margin-left: 24%;
+    line-height: 1.5;
+ }
      
+p{
+    line-height: 1.5;
+}
