@@ -34,10 +34,6 @@ font-size: 27px;
     align-items: center;
 }
 
-footer{
-    text-align: center;
-}
-
 /* this is just for the backgorund image */
 #work{
    background-image: url(spiral.jpg);
@@ -47,6 +43,10 @@ footer{
    background-repeat: no-repeat;
    cursor:grab;
   }
+
+  footer{
+    text-align: center;
+}
 
 li{
     list-style: georgian;
