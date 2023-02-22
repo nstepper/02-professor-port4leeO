@@ -16,14 +16,13 @@ font-size: 27px;
 
 }
 
+/* separate out the columns nicely */
 .topics{
     width: 33%;
     min-height: 50em;
     margin: 10px;
     border: 3px solid whitesmoke; 
     text-align: center;
-   
-    
 }
 
 .work{
@@ -93,3 +92,7 @@ a:link {
 .styled:active {
     box-shadow: inset -2px -2px 3px grey, inset 2px 2px 3px white;
 }
+
+/* this is for setting up the portfolio boxes */
+
+

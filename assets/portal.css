@@ -1,0 +1,24 @@
+*{
+  font-family: 'Times New Roman', Times, serif; color: whitesmoke;
+  background-color: black;
+  box-sizing: border-box;
+}
+
+.flexbox{
+  display: flex;
+  min-height: 90%;
+
+}
+
+.photos{
+  width: 33%;
+  min-height: 50em;
+  margin: px;
+  padding: 5px;
+  text-align: center;
+  
+}
+img {
+  width: 380px;
+  height: 210px;
+}
