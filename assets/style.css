@@ -1,0 +1,98 @@
+*{
+    font-family: 'Times New Roman', Times, serif; color: whitesmoke;
+    background-color: black;
+    box-sizing: border-box;
+}
+.header {
+text-align: center;
+border: 1px; color: black;
+font-size: 27px;
+}
+
+
+.flexbox{
+    display: flex;
+    min-height: 100%;
+
+}
+
+/* separate out the columns nicely */
+.topics{
+    width: 33%;
+    min-height: 50em;
+    margin: 10px;
+    border: 3px solid whitesmoke; 
+    text-align: center;
+}
+
+.work{
+    border: 3px solid white;
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif; color: black;   
+    text-align: center;
+    align-items: center;
+}
+
+/* this is just for the backgorund image */
+#work{
+   background-image: url(spiral.jpg);
+   flex-flow: nowrap;
+   align-items: center;
+   background-size: 100%;
+   background-repeat: no-repeat;
+   cursor:grab;
+  }
+
+  footer{
+    text-align: center;
+}
+
+li{
+    list-style: georgian;
+    text-align: left;
+    margin-left: 24%;
+    line-height: 1.5;
+ }
+     
+p{
+    line-height: 1.5;
+}
+
+a:link {
+    color: whitesmoke;
+    text-decoration: none;
+  }
+  
+  a:hover, a:active{
+    color: red;
+  }
+
+  /* this is for the button that will be used to navigate back and forth between the webpages without having to make a new tab*/
+  .styled {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: larger;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px grey;
+    border-radius: 10px;
+    background-color:black;
+    background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+    margin-left: 10px ;
+}
+/* I felt it would look cool for it to invert the colors when hovered over */
+.styled:hover {
+    background-color: white;
+    color: black;
+    text-shadow: 3px 2px 2px grey;
+}
+
+.styled:active {
+    box-shadow: inset -2px -2px 3px grey, inset 2px 2px 3px white;
+}
+
+/* this is for setting up the portfolio boxes */
+
+
